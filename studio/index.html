@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vaqueiro Studio</title>
+<meta name="description" content="Vaqueiro Studio: a content studio to review, schedule and publish short videos to TikTok.">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon.png">
+<link rel="icon" type="image/svg+xml" href="../icone.svg">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<style>
+:root{--fundo:#FFF8EF;--texto:#2A1410;--suave:#6B4A3E;--destaque:#D9572B;--cartao:#FFFFFF;--borda:#F0DCC8}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--fundo);color:var(--texto);line-height:1.6}
+a{color:var(--destaque)}
+.topo{display:flex;align-items:center;justify-content:space-between;gap:16px;max-width:980px;margin:0 auto;padding:20px 16px}
+.marca{display:flex;align-items:center;gap:12px;font-weight:700;font-size:1.2em;color:var(--texto);text-decoration:none}
+.marca img{width:44px;height:44px;border-radius:10px}
+.topo nav a{margin-left:18px;color:var(--suave);text-decoration:none;font-size:.95em}
+.hero{background:linear-gradient(180deg,#5B1E2E 0%,#D9572B 60%,#F7B544 100%);color:#fff}
+.hero div{max-width:980px;margin:0 auto;padding:72px 16px 80px}
+.hero h1{font-size:2.4em;line-height:1.2;margin:0 0 16px;max-width:640px}
+.hero p{font-size:1.15em;max-width:600px;margin:0}
+main{max-width:980px;margin:0 auto;padding:48px 16px}
+h2{font-size:1.5em;margin:0 0 20px}
+.grade{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-bottom:56px}
+.cartao{background:var(--cartao);border:1px solid var(--borda);border-radius:14px;padding:20px}
+.cartao h3{margin:0 0 8px;font-size:1.05em}
+.cartao p{margin:0;color:var(--suave);font-size:.95em}
+.passo{display:inline-block;width:28px;height:28px;border-radius:50%;background:var(--destaque);color:#fff;text-align:center;line-height:28px;font-weight:700;margin-bottom:10px}
+section{margin-bottom:56px}
+section p{max-width:720px}
+footer{border-top:1px solid var(--borda);max-width:980px;margin:0 auto;padding:24px 16px 40px;color:var(--suave);font-size:.9em;display:flex;flex-wrap:wrap;gap:8px 24px}
+@media (max-width:560px){.hero h1{font-size:1.8em}.topo nav{display:none}}
+</style>
+</head>
+<body>
+<header class="topo">
+  <a class="marca" href="./"><img src="../icone.png" alt="">Vaqueiro Studio</a>
+  <nav><a href="#how">How it works</a><a href="#features">Features</a><a href="../">Privacy</a><a href="../termos.html">Terms</a></nav>
+</header>
+
+<div class="hero"><div>
+  <h1>Review, schedule and publish short videos to TikTok.</h1>
+  <p>Vaqueiro Studio is the content studio behind the creator <strong>Página di Vaqueiro</strong>, a series about everyday life in the Brazilian sertão, set to the creator's own music.</p>
+</div></div>
+
+<main>
+  <section id="how">
+    <h2>How it works</h2>
+    <div class="grade">
+      <div class="cartao"><span class="passo">1</span><h3>Create</h3><p>The creator assembles a short vertical video (15–25 s) with their own music and on-screen text.</p></div>
+      <div class="cartao"><span class="passo">2</span><h3>Review</h3><p>Every video waits in the studio queue. Nothing is posted until the creator previews and approves it.</p></div>
+      <div class="cartao"><span class="passo">3</span><h3>Choose settings</h3><p>Caption, who can view, comments, Duet and Stitch, and the "AI-generated content" label are chosen for each post.</p></div>
+      <div class="cartao"><span class="passo">4</span><h3>Publish</h3><p>The approved video is sent to TikTok with Login Kit and the Content Posting API, either posted directly or saved to the TikTok inbox as a draft.</p></div>
+    </div>
+  </section>
+
+  <section id="features">
+    <h2>Features</h2>
+    <div class="grade">
+      <div class="cartao"><h3>Approval queue</h3><p>One place to see what is ready, pending or already posted, with the scheduled time of each video.</p></div>
+      <div class="cartao"><h3>AI content label</h3><p>Realistic AI-generated scenes are always published with TikTok's AI-generated content disclosure.</p></div>
+      <div class="cartao"><h3>Own music</h3><p>Videos use only tracks written and released by the creator.</p></div>
+      <div class="cartao"><h3>Secure connection</h3><p>The TikTok account is connected with the official login. Access can be removed at any time in TikTok's settings.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>About</h2>
+    <p>Vaqueiro Studio is made by the team behind <a href="https://www.tiktok.com/@paginadivaqueiro">@paginadivaqueiro</a> on TikTok and <a href="https://www.facebook.com/paginadivaqueiro">Página di Vaqueiro</a> on Facebook. It only handles the creator's own content and account; it does not collect data from TikTok viewers.</p>
+    <p>Questions or data requests: send a message to <a href="https://www.facebook.com/paginadivaqueiro">Página di Vaqueiro</a> on Facebook.</p>
+  </section>
+</main>
+
+<footer>
+  <span>© 2026 Vaqueiro Studio</span>
+  <a href="../">Privacy Policy</a>
+  <a href="../termos.html">Terms of Service</a>
+</footer>
+</body>
+</html>
